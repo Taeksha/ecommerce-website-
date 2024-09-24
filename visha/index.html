@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="desciption.html">
+  <title>Document</title>
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light " style="height: 90px;">
+    <div class="container-fluid  d-lg-flex " style="display: flex; justify-content: space-between;">
+      <a class="navbar-brand" href="index.html"><h1>BUZZ</h1></a>
+
+
+      <button class="btn d-lg-none d-md-none d-sm-visible" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span
+          class="navbar-toggler-icon"></span></button>
+
+      <ul class="navbar-nav " style="color: BLACK; font-weight: bold;">
+
+        <li class="nav-item " > 
+          <a class="nav-link active " aria-current="page" href="#" id="shop">SHOP</a>
+
+          <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 menu d-flex">
+
+         
+               
+                  <ul class="list-unstyled" style="color: gray; font-weight: normal;">
+                    <h2 style="color: black;">CLEANSE</h2>
+                    <li>Utility Wash</li>
+                    <li>Utility Bar</li>
+                    <li>Deodorant</li>
+                   
+                  </ul>
+                  
+                  <ul class="list-unstyled"  style="color: gray; font-weight: normal;">
+                    <h2  style="color: black;"> CONDITION</h2>
+                    <li> Utility Oil</li>
+                    <li> Utility Balm</li>
+                    <li> Utility Softener</li>
+                 
+                    
+                  </ul>
+               
+                  <ul class="list-unstyled"  style="color: gray; font-weight: normal;">
+                    <h2 style="color: black;">STYLE</h2>
+                    <li>Sea Salt Spray</li>
+                    <li>Styling Paste</li>
+                    <li>Mustache Wax</li>
+                    <li>Eua De Parfume</li>
+                  
+                  </ul>
+                  <ul class="list-unstyled"  style="color: gray; font-weight: normal;">
+                
+                    <h2 style="color: black;">cleans</h2>
+                    <li>Utility Trimmer</li>
+                    <li>Combs,Brushes & Tools</li>
+                    <li>Book Of Reminders</li>
+                    <li>Allience Membership</li>
+                    <li>Fragrance Samples</li>
+                 
+                  </ul>
+                </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="secon.html">BEARD</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="hair.html">HAIR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skin.html">BODY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">FRAGRANCE</a>
+        </li>
+
+        <li class="nav-item">
+
+
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasA-Right"
+            aria-controls="offcanvasA-Right"><i class="bi bi-search" style="font-size: 20px;"></i></button>
+
+          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasA-Right"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+              <div style="font-weight: bold;">SEARCH</div>
+
+              <button type="button " class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+              <input type="text" name="" id="" placeholder="Enter a keyword">
+            </div>
+
+        </li>
+
+        <li class="nav-item">
+
+
+          <a href="cart.html">  <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvass-Right"
+            aria-controls="offcanvass-Right"><i class="bi bi-bag-fill" style="font-size: 20px;"></i></button></a>
+
+          <!-- <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvass-Right"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+              <div style="font-weight: bold;">CART</div>
+
+              <button type="button " class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+              <h5 style="margin: 20px 0px;">➤ You're $75 away from free USA shipping</h5>
+
+              <p style="font-weight: normal;">Add at least 4 products to unlock your bundle savings!</p>
+
+              <button>START SHOPPING</button>
+
+
+            </div>
+            </div> -->
+
+        </li>
+      </ul>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+
+        <div style="font-weight: bold;">MENU</div>
+
+        <button type="button " class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HAIR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BODY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">FRAGRANCE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+  </nav>
+
+
+  
+  <div class="banner">
+    <div class="content">
+      <h1>
+        SEE WHAT <br>THE BUZZ IS <br> ABOUT
+      </h1>
+
+      <p>Finally, a beard, hair, and body trimmer worthy of the buzz. Preorder the new Beardbrand Utility Trimmer now and save up to 20%.</p>
+      <button>PREORDER NOW</button>
+    </div>
+
+
+    <div class="image">
+      <img src="https://cdn.shopify.com/s/files/1/0209/0478/files/UT_black_tile_MOBILE_1_1.jpg?v=1725306469" alt="">
+    </div>
+  </div>
+
+
+  <div class="grow" >
+    <h1 class="animate__animated animate__backInRight" style="text-align: center;">Keep on Growing®</h1>
+  </div>
+
+
+  <div class="container-fluid" >
+    <div class="row flex-column">
+    <div class="col-12 col-md-12 col-sm-12">
+        <div class="brand">
+          <h1 style="font-size: 60px;">Don’t let the name fool you. <br>
+            Beardbrand is for more than beards.</h1>
+          </div>
+        </div>
+           <div class="col-12 col-md-12 col-sm-12">
+            <div class="brand-2">
+            <p style="font-size: 17px;">Sure, we started as a beard company in 2012. We’re still the most trusted name in beard care. But high-quality, time-tested ingredients that are great for beards? Turns <br>
+              out they’re equally great for hair and skin. So don’t let the name fool you. <b>Beardbrand is for more than beards.</b></p>
+      </div>
+           </div>  
+     
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row"  id="header">
+      <div class="coll">
+        <div class="col-4 cars"  style="height: 450px; width: 25%;"><img src="https://cdn.shopify.com/s/files/1/0209/0478/files/beard_web.jpg?v=1725392740" id="image" alt="">
+          <h1 id="title">Beard</h1>
+        <button id="beard"><a href="secon.html" id="href">SHOP NOW</a></button>
+      </div>
+      <div class="col-4 cars "  id="image" style="height: 450px; width: 25%;"><img src="https://cdn.shopify.com/s/files/1/0209/0478/files/hair_web.jpg?v=1725392740">
+        <h1 id="title">Hair</h1>
+        <button id="text"><a href="hair.html" id="href">SHOP NOW</a></button>
+      </div>
+      <div class="col-4 cars"  style="height: 450px; width: 25%;"><img src="https://cdn.shopify.com/s/files/1/0209/0478/files/skin_web.jpg?v=1725392740" id="image" alt="">
+        <h1 id="title">Skin</h1>
+        <button id="text"><a href="skin.html" id="href">SHOP NOW</a></button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+   <div class="mark" style="background-color: white; border:1px solid black;">
+    <marquee behavior="scroll" direction="left" scrollamount="20">
+      <h1 style="font-size: 80px;"> FREE STYLE CONSULTATION TNFORMATION .TEXT "STYLE" TO 512-879-3297 FOR A FREE STYLE CONSULTATION
+        
+        
+        .</h1>
+     </marquee>
+   </div>
+  <div class="container-fluid" style="background-color: yellow; border-bottom: 1px solid black;">
+    <h1 style="margin-left: 60px; ">BLOG</h1>
+  </div>
+  <div class="banner">
+    <div class="content" style="padding: 80px 50px;">
+     <ul>
+      <h2>Top Articles</h2>
+      <li>The 23 Best Beard Styles for 2023</li>
+      <li>The Definitive Guide to Mustache Styles</li>
+      <li>How to Grow an Awesome Beard</li>
+      <li>How to Fix Your Patchy Beard</li>
+      <li>The Ultimate Guide to Men’s Hair Products</li>
+     </ul>
+
+     <ul>
+      <h2>Beard Tips And Hacks</h2>
+      <li>5 Tips for an Epic White Beard</li>
+      <li>5 Beard Tools You Need and 5 You Don’t</li>
+      <li>The Ultimate Guide to Beards and Ingrown Hairs</li>
+      <li>9 Advanced Beard Hacks to Level Up Your Beard</li>
+      <li>What Beard Oil Does and How to Use It</li>
+
+     </ul>
+
+     <ul>
+      <h2>Style</h2>
+      <li>7 Best Ways to Wear Cowboy Boots</li>
+      <li>It’s Time to Ditch the Necktie for the Bolo Tie</li>
+      <li>The Beardbrand Guide to Men’s Hat Styles</li>
+      <li>Men’s Style Guide: 12 Tips to Take You to the Ultimate Level</li>
+      <li>Top 5 Style Mistakes Men Make</li>
+      <li>The Ultimate Outfit Guide Based on the Color of Your Beard</li>
+     </ul>
+
+     <button id="button">SEE ALL POST</button>
+    </div>
+
+
+    <odiv class="image">
+      <img src="https://www.beardbrand.com/cdn/shop/files/oil-texture_1080x.jpg?v=1723584824" alt="">
+    </div>
+  </div>
+
+
+  
+  <div class="grows" style="border-bottom: 1px solid gray;">
+    <h1 style="text-align: center; margin: 70px 0px; font-size: 80px;">Grow Your Mind </h1>
+
+  </div>
+
+
+
+  <div class="container-fluid" style="height: 600px;">
+    <div class="row">
+        <div class="col-4" style="padding: 150px 60px;">
+            <h4  style="padding: 20px 0px;"><b>Shoppers with Disabilities</b></h4>
+            <p style="text-align: justify;">If you are vision-impaired or have any impairment covered by the Americans with Disabilities Act or a similar law, and you wish to discuss potential accommodations related to using this website, please contact us at 844-662-3273 ext 0 or email us at support@beardbrand.com.</p>
+        </div>
+        <div class="col-4 about" style="padding: 150px 60px;">
+         <ul style="list-style: none;">
+            <h4  style="padding: 20px 0px;"><b>Shoppers with Disabilities</b></h4>
+            <li> Beardbrand Barbershop</li>
+            <li>About Us</li>
+            <li>Ingredient Glossary</li>
+            <li>Team</li>
+            <li>Retail Locations</li>
+            <li>Terms of Use, Privacy Policy & Trademarks</li>
+         </ul>
+        </div>
+        <div class="col-4 about" style="padding: 150px 60px;">
+            <ul style="list-style: none;">
+                <h4  style="padding: 20px 0px;"><b>Shoppers with Disabilities</b></h4>
+                <li> Account Login</li>
+                <li>Returns & Exchanges</li>
+                <li>FAQsy</li>
+                <li>Contact Us</li>
+                <li>Alliance Forums</li>
+                <li>Affiliate Program</li>
+                <li>Supplemental Glossary</li>
+                <li>Urban Beardsman Blog</li>
+             </ul>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+</body>
+
+</html>

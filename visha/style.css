@@ -1,0 +1,249 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.banner
+{
+    display: flex;
+    border: 1px solid black;
+    position: static;
+}
+.content
+{
+   width: 50%;
+   position: relative;
+}
+#button
+{
+position: absolute;
+transform: translate(-50%,-50%);
+left: 17%;
+top: 93%;
+}
+.image
+{
+    width: 50%;
+}
+.image img{
+     width: 100%;
+     height: 100%;
+}
+.content h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 30%;
+    font-size: 60px;
+}
+.content p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 42%;
+    font-size: 20px;
+}
+.content button
+{
+    position: absolute;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 22%;
+}
+.dropdown
+{
+    width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+display: none;
+}
+.nav-item
+{
+    padding: 20px;
+    font-size: 18px;
+}
+.nav-link:hover .dropdown
+{
+
+    display: visible;
+
+}
+.grow
+{
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+   
+}
+.grow h1
+{
+    line-height: 100px;
+    font-size: 80px;
+}
+.dropdown-menu.mega-menu {
+    display: none;
+    position: absolute;
+    height: 400PX;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-item:hover .dropdown-menu.mega-menu {
+    display: block;
+  
+ 
+  }
+  .menu 
+  {
+    width: 100%;
+    
+  }
+.menu  ul
+{
+   padding: 50px;
+   margin: 0px auto;
+   
+   
+}
+.menu  ul h2
+{
+    margin-bottom: 20px;
+}
+.menu  ul li
+{
+
+    padding: 8px;
+}
+.offcanvas-body input
+{
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 15   px;
+}
+.offcanvas-body button
+{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.brand
+{
+    position: relative;
+    height: 300px;
+}
+.brand-2
+{
+    position: relative;
+    height: 120px;
+}
+.brand h1
+{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+.brand-2 p
+{
+    position: absolute;
+    
+    left: 6%;
+  
+}
+.coll
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20%;
+ 
+}
+.coll .cars{
+    position: relative;
+  
+}
+
+.coll .cars button
+{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    background-color: black;
+   
+    border: 1px solid white;
+    padding: 15px 20px;
+}
+.cars button a{
+    text-decoration: none;
+    color: white;
+}
+.cars button {
+    text-decoration: none;
+    color: white;
+}
+.cars h1
+{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color: white;
+}
+.cars button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.cars button:hover  a{
+    text-decoration: none;
+    color: black;
+}
+.content ul li
+{
+    list-style: none;
+    padding-bottom: 8px;
+    text-decoration: underline;
+}
+.header {
+    position: relative;
+}
+.banner #title{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 30%;
+}
+/* .banner h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 23%;
+} */
+.banner #description
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 45%; 
+    padding-top: 30px;
+}
+.banner #addToCart
+{
+   
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 47%; 
+    padding: 20px 30px;
+    width: 60%;
+
+}
