@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "title": "Utility Trimmer",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UT_1080x.jpg?v=1724863344",
+      "image2": "https://www.beardbrand.com/cdn/shop/files/UT_all-parts_840x.jpg?v=1724863344",
+      "price": "From $36",
+      "description": "Made with our friends at Brio, this custom Beardbrand Utility Trimmer features a customer colorway, a full set of matching guards, and an incredibly smooth ceramic blade. The Utility Trimmer is designed for beard, hair, and body use. Preorder your Utility Trimmer and save up to 10%. The expected delivery date is December 2024",
+      "id": "01"
+    },
+    {
+      "title": "Utility Oil",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UOBF_PUMP_1_bab1e32a-a886-44c1-9865-d1afbd9e0610_1080x.jpg?v=1709222018",
+      "price": "From $36",
+      "description": "Utility Oil is our award-winning rejuvenating oil for beard, hair, face, and skin. Formulated with natural abyssinian, jojoba, castor, and babassu oils, Utility Oil gives you lightweight, non-greasy hydration wherever you use it. SIZE: 4 fl oz.",
+      "id": "02"
+    },
+    {
+      "title": "Utility Balm",
+      "price": "From $19",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UBBF_5800ff16-56bd-4a76-9e62-90e5de529502_480x.jpg?v=1708614303",
+      "id": "03",
+      "description": "Our original formula Utility Balm. A moisturizing powerhouse made with 3X more natural butters (shea, mango, cocoa) than standard beard balms. This ultra-hydrating beard balm and hair moisturizer also works miracles on dry skin, adds shine and vigor to fully healed tattoos, and so much more. SIZE: 4.2 oz."
+    },
+    {
+      "title": "Utility Wash",
+      "price": "From $19",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UWBF_PUMP_03ae8a3a-baf7-4a83-a792-a351c30f479c_480x.jpg?v=1700838057",
+      "id": "04",
+      "description": "All-in-one wash, redefined. Utility Wash is a versatile cleanser for beard, hair, face, and body. These suds are formulated with no harsh sulfates — just coconut-derived cleansers that are gentle enough for your beard, hair, and face, but strong enough to wash where the sun doesn’t shine. Utility Wash pairs perfectly with Utility Softener. SIZE: 14 fl oz."
+    },
+    {
+      "title": "Utility Softener",
+      "price": "From $19",
+      "image": "https://www.beardbrand.com/cdn/shop/files/USBF_PUMP_118b76d4-37a9-47de-b981-e0c06de2aa28_640x.jpg?v=1700838641",
+      "id": "05",
+      "description": "Life is hard; soften up. Utility Softener is a versatile beard and hair conditioner that restores hydration lost from showering, strengthens hair follicles, and helps prevent breakage. Use it daily for a softer, healthier, and easier to style beard and mane. Utility Softener pairs perfectly with Utility Wash. SIZE: 14 fl oz."
+    },
+    {
+      "title": "Styling Paste",
+      "price": "From $19",
+      "image": "https://www.beardbrand.com/cdn/shop/files/SPBF_640x.jpg?v=1717708453",
+      "id": "06",
+      "description": "Beardbrand Styling Paste is now made with the original Beardbrand Styling Balm formula that delivers medium hold and a free-flowing, natural look for your beard and head hair. The flexible, satin finish leaves hair touchable without that hard, stiff, and crunchy feeling. SIZE: 4.2 oz."
+    },
+    {
+      "title": "Sea Salt Spray",
+      "price": "From $19",
+      "image": "https://www.beardbrand.com/cdn/shop/files/SSBF_PUMP_640x.jpg?v=1721767323",
+      "id": "07",
+      "description": "Sea Salt Spray adds waves, volume, texture, and a touch of hold to your hair and beard, giving you straight-from-the-beach style. Infused with Dead Sea salt and kaolin. Warning: a few sprays of Sea Salt Spray will have you feeling like Poseidon. SIZE: 4 fl oz."
+    },
+    {
+      "title": "Utility Bar",
+      "price": "From $42",
+      "rte": "Rating: 4.41 out of 5.0",
+      "image": "https://www.beardbrand.com/cdn/shop/files/BAROM_640x.jpg?v=1696688981",
+      "id": "08",
+      "description": "Made with cocoa butter, mango butter, and coconut oil, these soap pucks serve as an ultra-hydrating skin and face cleanser, a moisturizing beard wash, and a gentle hair shampoo. But that’s not all — whip it up into a foamy lather with a shave brush for the smoothest head shave of your life. Go ahead and shower like you give a puck. SIZE: Each bar is 5 oz."
+    },
+    {
+      "title": "Mustache Wax",
+      "price": "From $12",
+      "rte": "Rating: 4.53 out of 5.0",
+      "image": "https://www.beardbrand.com/cdn/shop/files/MWOM_30189fe2-5ada-462e-b3d1-ab28aec02330_480x.jpg?v=1699027622",
+      "id": "09",
+      "description": "Made with beeswax and lanolin, Beardbrand Mustache Wax provides a medium hold perfect for creating a naturally-styled mustache. It’s not a high-hold wax, so it won’t give you a stiff 'stache. But, it will give you a free-flowing mustache curl in the style of Wyatt Earp. SIZE: .25 oz."
+    },
+    {
+      "title": "Grooming Kit",
+      "price": "From $219",
+      "image": "https://www.beardbrand.com/cdn/shop/files/GK_480x.jpg?v=1696618265",
+      "id": "10",
+      "description": "The Beard Grooming Kit has everything you need to rock your look with confidence. Housed in a black walnut box, It includes three versatile sizes of our 100% Boar’s Hair Brushes, travel-friendly Beard Trimming Scissors, and two incredibly smooth, limited edition cellulose acetate Beard Combs."
+    },
+    {
+      "title": "Beard Comb",
+      "rte": "Rating: 4.74 out of 5.0",
+      "price": "From $219",
+      "image": "https://www.beardbrand.com/cdn/shop/files/LCWR_c4435473-8e5a-48a9-8ff0-b0fbc1b3076f_480x.jpg?v=1696620013",
+      "id": "11",
+      "description": "The smoothest beard comb on earth. Handmade from cellulose acetate — a plant-based, rubber-like material that doesn’t produce static, is durable, and won’t snag your hairs. Our combs are designed to slide through even the thickest of beards like a hot knife through butter."
+    },
+    {
+      "title": "Beard Brush",
+      "price": "From $23",
+      "rte": "Rating: 4.73 out of 5.0",
+      "image": "https://www.beardbrand.com/cdn/shop/files/OB_SIDE_480x.jpg?v=1713563276",
+      "id": "12",
+      "description": "It takes the right tools to achieve great style, and few tools are as essential as the Beard Brush. Made with 100% boar’s hair, the stiff bristles exfoliate the skin beneath your beard, removing itchy dead skin while also distributing sebum evenly along the hair shafts — helping to keep your beard clean, healthy, and shiny."
+    },
+    {
+      "title": "Trimming Scissors",
+      "price": "From $49",
+      "rte": "Rating: 4.82 out of 5.0",
+      "image": "https://www.beardbrand.com/cdn/shop/files/TS_a0c8aed9-2e45-4c60-bdf3-deda432e135b_480x.jpg?v=1696616947",
+      "id": "13",
+      "description": "Trimming Scissors that actually cut it. These Beardbrand Trimming Scissors feature Japanese-made steel blades with a hardness rating of 55–56, giving you years of precision beard, mustache, eyebrow, and sideburn trimming."
+    },
+    {
+      "title": "Fragrance Sample",
+      "price": "From $10",
+      "rte": "Rating: 4.82 out of 5.0",
+      "image": "https://www.beardbrand.com/cdn/shop/files/FS_10854abd-0b81-4615-b3d7-d6f2601f7521_480x.jpg?v=1697048480",
+      "id": "14",
+      "description": "We know it takes some real superpowers to smell a scent blend through your computer screen, so we've put together a Beardbrand Fragrance Sample Set. Each Fragrance Sample Set comes with a $10 credit towards your next purchase. Limit of 1 credit per customer. Fragrance Sample Sets include Old Money, Temple Smoke, and Tree Ranger Fragrances. Bold Fortune is a special-edition fragrance and samples are not available. SIZE: 2 ml each."
+    }
+  ],
+  "cart": [
+    {
+      "id": "a651",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UOBF_PUMP_1_bab1e32a-a886-44c1-9865-d1afbd9e0610_1080x.jpg?v=1709222018",
+      "title": "Utility Oil",
+      "price": "From $36",
+      "description": "Utility Oil is our award-winning rejuvenating oil for beard, hair, face, and skin. Formulated with natural abyssinian, jojoba, castor, and babassu oils, Utility Oil gives you lightweight, non-greasy hydration wherever you use it. SIZE: 4 fl oz."
+    },
+    {
+      "id": "ae81",
+      "image": "https://www.beardbrand.com/cdn/shop/files/UT_1080x.jpg?v=1724863344",
+      "title": "Utility Trimmer",
+      "price": "From $36",
+      "description": "Made with our friends at Brio, this custom Beardbrand Utility Trimmer features a customer colorway, a full set of matching guards, and an incredibly smooth ceramic blade. The Utility Trimmer is designed for beard, hair, and body use. Preorder your Utility Trimmer and save up to 10%. The expected delivery date is December 2024"
+    }
+  ]
+}
